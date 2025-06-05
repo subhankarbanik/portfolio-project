@@ -20,7 +20,8 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
         <p>
-           Hi, I'm Subhankar, a Full Stack Developer specializing in the MERN Stack, combining consulting expertise with technical skills to build seamless web applications with MongoDB, Express.js, React, and Node.js.
+           Hi, I'm Subhankar, versatile full-stack engineer with hands-on experience in the MERN stack and cloud deployments using AWS.
+           Brings together product thinking and engineering execution to deliver robust, maintainable software.
         </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
@@ -41,6 +42,7 @@ export function About() {
             <ScrollAnimation animateIn="fadeInUp" delay={0.14 * 1000}>
               <img src={typescriptIcon} alt="Typescript" />
             </ScrollAnimation>
+            
           </div>
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.16 * 1000}>

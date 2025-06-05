@@ -23,7 +23,8 @@ export function Hero() {
           <h3>Full Stack Web Developer</h3>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
-          <p className="small-resume">Full-Stack Web Developer with a Unique Blend of Sales Expertise and Consulting Experience</p>
+          <p className="small-resume">Full-stack engineer with hands-on experienced in building modern web applications and AI-enabled features.
+          Combines strong backend logic with polished frontends, third-party integrations, and real-time capabilities.</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
           <BrowserRouter>

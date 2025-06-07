@@ -2,7 +2,7 @@ import { Container } from './styles'
 import { BrowserRouter as Router } from 'react-router-dom'
 import { NavHashLink, HashLink } from 'react-router-hash-link'
 import { useState } from 'react'
-import Resume from '../../assets/Subhankar_Banik.pdf'
+import Resume from '../../assets/SubhankarBanik_Resume.pdf'
 
 export function Header() {
   const [isActive, setActive] = useState(false)
@@ -25,7 +25,7 @@ export function Header() {
     // Also trigger download
     const link = document.createElement('a')
     link.href = Resume
-    link.download = 'Subhankar_Banik.pdf'
+    link.download = 'SubhankarBanik_Resume.pdf'
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
@@ -53,8 +53,9 @@ export function Header() {
           <NavHashLink smooth to="#about" onClick={closeMenu}>
             About me
           </NavHashLink>
+  
           <NavHashLink smooth to="#project" onClick={closeMenu}>
-            Project
+            Work & Projects
           </NavHashLink>
           <NavHashLink smooth to="#contact" onClick={closeMenu}>
             Contact

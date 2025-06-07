@@ -115,7 +115,7 @@ export function Work() {
               </a>
             </header>
             <div className="body">
-              <h3>Technical Support Consultant (Aug 2023-Dec 2023)</h3>
+              <h3>Technical Support Consultant (Aug 2021-Dec 2023)</h3>
               <p>
               Collaborate with product & analytics teams to implement technical solutions based on client or internal requirements.
               </p>

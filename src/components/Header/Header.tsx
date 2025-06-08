@@ -3,6 +3,7 @@ import { BrowserRouter as Router } from 'react-router-dom'
 import { NavHashLink, HashLink } from 'react-router-hash-link'
 import { useState } from 'react'
 import Resume from '../../assets/SubhankarBanik_Resume.pdf'
+import Resume1 from '../../assets/SubhankarBanik-Resume.pdf'
 
 export function Header() {
   const [isActive, setActive] = useState(false)
@@ -20,12 +21,12 @@ export function Header() {
     e.preventDefault() // Prevent default anchor behavior
     
     // Open resume in new tab
-    window.open(Resume, '_blank')
+    window.open(Resume1, '_blank')
     
     // Also trigger download
     const link = document.createElement('a')
-    link.href = Resume
-    link.download = 'SubhankarBanik_Resume.pdf'
+    link.href = Resume1
+    link.download = 'SubhankarBanik_Resume1.pdf'
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
@@ -60,7 +61,7 @@ export function Header() {
           <NavHashLink smooth to="#contact" onClick={closeMenu}>
             Contact
           </NavHashLink>
-          <a href={Resume} onClick={handleResumeClick} className="button">Resume</a>
+          <a href={Resume1} onClick={handleResumeClick} className="button">Resume</a>
         </nav>
         <div
           aria-expanded={isActive ? 'true' : 'false'}
